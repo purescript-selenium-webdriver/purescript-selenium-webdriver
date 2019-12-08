@@ -3,10 +3,13 @@ module Selenium.Builder
   , browser
   , version
   , platform
+  , rule
   , usingServer
   , scrollBehaviour
   , withCapabilities
   , Build
+  , unBuild
+  , Command
   ) where
 
 import Prelude
