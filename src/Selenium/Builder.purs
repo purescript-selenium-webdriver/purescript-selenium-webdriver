@@ -7,9 +7,9 @@ module Selenium.Builder
   , usingServer
   , scrollBehaviour
   , withCapabilities
-  , Build
+  , Build(..)
   , unBuild
-  , Command
+  , Command(..)
   ) where
 
 import Prelude
