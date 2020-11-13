@@ -1,5 +1,5 @@
 -- | DSL for building action sequences
-module Selenium.ActionSequence
+module SeleniumWebdriver.ActionSequence
   ( sequence
   , keyUp
   , keyDown
@@ -25,8 +25,8 @@ import Control.Monad.Writer.Class (tell)
 import Data.Foldable (foldl)
 import Data.Function.Uncurried (Fn3, Fn2, runFn3, runFn2)
 import Data.List (List, singleton)
-import Selenium.MouseButton (leftButton)
-import Selenium.Types (ActionSequence, Location, Element, ControlKey, MouseButton, Driver)
+import SeleniumWebdriver.MouseButton (leftButton)
+import SeleniumWebdriver.Types (ActionSequence, Location, Element, ControlKey, MouseButton, Driver)
 
 data Command
   = Click MouseButton Element

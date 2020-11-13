@@ -1,4 +1,4 @@
-// module Selenium.MouseButton
+// module SeleniumWebdriver.MouseButton
 
 var b = require("selenium-webdriver").Button;
 

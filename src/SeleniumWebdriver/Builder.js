@@ -1,4 +1,4 @@
-// module Selenium.Builder
+// module SeleniumWebdriver.Builder
 
 var webdriver = require("selenium-webdriver");
 

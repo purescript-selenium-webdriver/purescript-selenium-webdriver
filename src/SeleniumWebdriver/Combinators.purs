@@ -1,4 +1,4 @@
-module Selenium.Combinators where
+module SeleniumWebdriver.Combinators where
 
 import Prelude
 import Control.Alt ((<|>))
@@ -8,8 +8,8 @@ import Control.Monad.Trans.Class (lift)
 import Data.Either (Either(..), either)
 import Data.Maybe (Maybe, isJust, maybe)
 import Data.Time.Duration (class Duration, Milliseconds(..))
-import Selenium.Monad (Selenium, getCurrentUrl, wait, attempt, findExact, tryRepeatedlyTo, tryRepeatedlyTo', findElement, byCss, later, byClassName, byName, byId, byXPath)
-import Selenium.Types (Element, Locator)
+import SeleniumWebdriver.Monad (Selenium, getCurrentUrl, wait, attempt, findExact, tryRepeatedlyTo, tryRepeatedlyTo', findElement, byCss, later, byClassName, byName, byId, byXPath)
+import SeleniumWebdriver.Types (Element, Locator)
 
 -- | Retry computation until it successed but not more then `n` times
 retry ∷ ∀ e o a. Int → Selenium e o a → Selenium e o a

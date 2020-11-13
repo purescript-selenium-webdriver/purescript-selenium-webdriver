@@ -1,6 +1,6 @@
-module Selenium.MouseButton where
+module SeleniumWebdriver.MouseButton where
 
-import Selenium.Types
+import SeleniumWebdriver.Types
 
 foreign import leftButton ∷ MouseButton
 foreign import rightButton ∷ MouseButton

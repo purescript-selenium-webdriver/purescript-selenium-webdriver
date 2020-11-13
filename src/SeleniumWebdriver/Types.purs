@@ -1,4 +1,4 @@
-module Selenium.Types where
+module SeleniumWebdriver.Types where
 
 import Prelude
 import Control.Monad.Error.Class (throwError)

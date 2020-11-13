@@ -1,4 +1,4 @@
-// module Selenium.Key
+// module SeleniumWebdriver.Key
 
 var k = require("selenium-webdriver").Key;
 

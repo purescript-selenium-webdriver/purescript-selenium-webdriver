@@ -1,7 +1,7 @@
 -- | Most functions of `Selenium` use `Driver` as an argument
 -- | This module supposed to make code a bit cleaner through
 -- | putting `Driver` to `ReaderT`
-module Selenium.Monad where
+module SeleniumWebdriver.Monad where
 
 import Prelude
 import Effect.Aff as A
@@ -15,9 +15,9 @@ import Data.List (List, fromFoldable)
 import Data.Maybe (Maybe)
 import Data.Time.Duration (class Duration, fromDuration, Milliseconds(..))
 import Selenium as S
-import Selenium.ActionSequence as AS
-import Selenium.Types (Driver, Element, FileDetector, Location, Locator, Size, Window, WindowHandle, XHRStats)
-import Selenium.XHR as XHR
+import SeleniumWebdriver.ActionSequence as AS
+import SeleniumWebdriver.Types (Driver, Element, FileDetector, Location, Locator, Size, Window, WindowHandle, XHRStats)
+import SeleniumWebdriver.XHR as XHR
 
 -- | `Driver` is field of `ReaderT` context
 -- | Usually selenium tests are run with tons of configs (i.e. xpath locators,

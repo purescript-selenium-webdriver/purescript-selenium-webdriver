@@ -1,4 +1,4 @@
-// module Selenium.Capabilities
+// module SeleniumWebdriver.Capabilities
 
 exports.emptyCapabilities = {};
 

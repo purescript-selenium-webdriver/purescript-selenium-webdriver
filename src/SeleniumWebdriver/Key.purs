@@ -1,6 +1,6 @@
-module Selenium.Extra.Key
+module SeleniumWebdriver.Key
   where
-import Selenium.Types
+import SeleniumWebdriver.Types
 
 foreign import nullKey ∷ ControlKey
 foreign import cancelKey ∷ ControlKey

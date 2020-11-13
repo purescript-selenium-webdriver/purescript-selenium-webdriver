@@ -1,4 +1,4 @@
-module Selenium
+module SeleniumWebdriver
   ( get
   , wait
   , quit
@@ -67,7 +67,7 @@ import Data.Maybe (Maybe(..))
 import Data.Time.Duration (Milliseconds)
 import Data.Tuple (Tuple(..))
 import Data.Unfoldable (class Unfoldable, unfoldr)
-import Selenium.Types (Driver, WindowHandle, Location, Window, Size, Element, FileDetector, Locator)
+import SeleniumWebdriver.Types (Driver, WindowHandle, Location, Window, Size, Element, FileDetector, Locator)
 
 foreign import _get
   ∷ Driver

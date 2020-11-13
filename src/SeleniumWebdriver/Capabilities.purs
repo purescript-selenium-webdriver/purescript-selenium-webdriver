@@ -1,4 +1,4 @@
-module Selenium.Capabilities where
+module SeleniumWebdriver.Capabilities where
 
 import Prelude
 

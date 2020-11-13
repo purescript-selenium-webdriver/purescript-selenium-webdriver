@@ -1,4 +1,4 @@
-// module Selenium.Remote
+// module SeleniumWebdriver.Remote
 
 var remote = require('selenium-webdriver/remote');
 

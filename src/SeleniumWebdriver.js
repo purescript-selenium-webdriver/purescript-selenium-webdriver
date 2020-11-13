@@ -1,4 +1,4 @@
-// module Selenium
+// module SeleniumWebdriver
 
 require("chromedriver");
 

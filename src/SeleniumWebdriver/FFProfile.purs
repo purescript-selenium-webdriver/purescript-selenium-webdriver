@@ -1,4 +1,4 @@
-module Selenium.FFProfile
+module SeleniumWebdriver.FFProfile
   ( FFProfileBuild
   , FFPreference
   , buildFFProfile
@@ -22,7 +22,7 @@ import Control.Monad.Writer.Class (tell)
 import Data.Foldable (foldl)
 import Foreign (Foreign)
 import Data.List (List, singleton)
-import Selenium.Capabilities (Capabilities)
+import SeleniumWebdriver.Capabilities (Capabilities)
 import Unsafe.Coerce (unsafeCoerce)
 
 foreign import data FFProfile ∷ Type

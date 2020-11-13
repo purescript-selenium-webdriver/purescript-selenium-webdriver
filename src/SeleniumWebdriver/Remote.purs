@@ -1,6 +1,6 @@
-module Selenium.Remote where
+module SeleniumWebdriver.Remote where
 
 import Effect (Effect)
-import Selenium.Types
+import SeleniumWebdriver.Types
 
 foreign import fileDetector ∷ Effect FileDetector

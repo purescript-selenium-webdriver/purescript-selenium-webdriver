@@ -1,4 +1,4 @@
-// module Selenium.FFProfile
+// module SeleniumWebdriver.FFProfile
 
 exports._newFFProfile = function(eb, cb) {
     var FirefoxProfile = require('selenium-webdriver/firefox/profile.js').Profile;

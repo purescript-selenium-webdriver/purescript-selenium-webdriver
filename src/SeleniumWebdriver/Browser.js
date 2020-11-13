@@ -1,4 +1,4 @@
-// module Selenium.Browser
+// module SeleniumWebdriver.Browser
 
 exports._browserCapabilities = function(br) {
     return {browserName: br};

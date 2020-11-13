@@ -1,4 +1,4 @@
-module Selenium.Browser
+module SeleniumWebdriver.Browser
   ( Browser(..)
   , browser2str
   , str2browser
@@ -11,7 +11,7 @@ import Prelude
 
 import Data.Maybe (Maybe(..))
 
-import Selenium.Capabilities (Capabilities)
+import SeleniumWebdriver.Capabilities (Capabilities)
 
 data Browser
   = PhantomJS

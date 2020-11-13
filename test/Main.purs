@@ -9,8 +9,8 @@ import Effect.Aff (launchAff, delay)
 import Effect.Class (liftEffect)
 import Effect.Console (log)
 import Selenium (byCss, byName, clickEl, findElement, get, getTitle, quit, sendKeysEl, wait)
-import Selenium.Browser (Browser(..))
-import Selenium.Builder (browser, build)
+import SeleniumWebdriver.Browser (Browser(..))
+import SeleniumWebdriver.Builder (browser, build)
 
 main :: Effect Unit
 main = do

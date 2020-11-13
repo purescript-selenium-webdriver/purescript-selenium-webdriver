@@ -1,4 +1,4 @@
-module Selenium.Builder
+module SeleniumWebdriver.Builder
   ( build
   , browser
   , version
@@ -22,9 +22,9 @@ import Data.Foldable (foldl)
 import Data.Function.Uncurried (Fn2, runFn2)
 import Data.List (List(..), singleton)
 import Data.Tuple (Tuple(..))
-import Selenium.Browser (Browser, browserCapabilities, platformCapabilities, versionCapabilities)
-import Selenium.Capabilities (Capabilities, emptyCapabilities)
-import Selenium.Types (Builder, ScrollBehaviour, Driver, SafariOptions, ProxyConfig, OperaOptions, LoggingPrefs, IEOptions, FirefoxOptions, ControlFlow, ChromeOptions)
+import SeleniumWebdriver.Browser (Browser, browserCapabilities, platformCapabilities, versionCapabilities)
+import SeleniumWebdriver.Capabilities (Capabilities, emptyCapabilities)
+import SeleniumWebdriver.Types (Builder, ScrollBehaviour, Driver, SafariOptions, ProxyConfig, OperaOptions, LoggingPrefs, IEOptions, FirefoxOptions, ControlFlow, ChromeOptions)
 
 data Command
   = SetChromeOptions ChromeOptions

@@ -1,4 +1,4 @@
-module Selenium.XHR where
+module SeleniumWebdriver.XHR where
 
 import Prelude
 import Effect.Aff (Aff)
@@ -10,7 +10,7 @@ import Foreign (isUndefined, readArray, readBoolean, readNullOrUndefined, readSt
 import Foreign.Index (readProp)
 import Data.Traversable (traverse, for)
 import Selenium (executeStr)
-import Selenium.Types (Driver, XHRStats, readMethod, readXHRState)
+import SeleniumWebdriver.Types (Driver, XHRStats, readMethod, readXHRState)
 
 -- | Start spy on xhrs. It defines global variable in browser
 -- | and put information about to it.

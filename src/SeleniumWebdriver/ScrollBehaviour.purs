@@ -1,6 +1,6 @@
-module Selenium.ScrollBehaviour where
+module SeleniumWebdriver.ScrollBehaviour where
 
-import Selenium.Types
+import SeleniumWebdriver.Types
 
 foreign import top ∷ ScrollBehaviour
 foreign import bottom ∷ ScrollBehaviour

@@ -1,4 +1,4 @@
-// module Selenium.ActionSequence
+// module SeleniumWebdriver.ActionSequence
 var webdriver = require("selenium-webdriver");
 
 exports._newSequence = function(driver) {
