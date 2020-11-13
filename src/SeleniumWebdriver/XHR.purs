@@ -9,7 +9,7 @@ import Data.Either (either, Either(..))
 import Foreign (isUndefined, readArray, readBoolean, readNullOrUndefined, readString)
 import Foreign.Index (readProp)
 import Data.Traversable (traverse, for)
-import Selenium (executeStr)
+import SeleniumWebdriver (executeStr)
 import SeleniumWebdriver.Types (Driver, XHRStats, readMethod, readXHRState)
 
 -- | Start spy on xhrs. It defines global variable in browser

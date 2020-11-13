@@ -14,7 +14,7 @@ import Data.Int as Int
 import Data.List (List, fromFoldable)
 import Data.Maybe (Maybe)
 import Data.Time.Duration (class Duration, fromDuration, Milliseconds(..))
-import Selenium as S
+import SeleniumWebdriver as S
 import SeleniumWebdriver.ActionSequence as AS
 import SeleniumWebdriver.Types (Driver, Element, FileDetector, Location, Locator, Size, Window, WindowHandle, XHRStats)
 import SeleniumWebdriver.XHR as XHR
