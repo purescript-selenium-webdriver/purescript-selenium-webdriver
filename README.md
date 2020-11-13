@@ -1,15 +1,16 @@
-# purescript-webdriver
+# purescript-selenium-webdriver
 
-[![Latest release](http://img.shields.io/github/release/slamdata/purescript-webdriver.svg)](https://github.com/slamdata/purescript-webdriver/releases)
-[![Build status](https://travis-ci.org/slamdata/purescript-webdriver.svg?branch=master)](https://travis-ci.org/slamdata/purescript-webdriver)
+[![Latest release](http://img.shields.io/github/release/purescript-selenium-webdriver/purescript-selenium-webdriver.svg)](https://github.com/purescript-selenium-webdriver/purescript-selenium-webdriver/releases)
+[![Build status](https://travis-ci.org/purescript-selenium-webdriver/purescript-selenium-webdriver.svg?branch=master)](https://travis-ci.org/purescript-selenium-webdriver/purescript-selenium-webdriver)
 
 A PureScript interface to Selenium's Node Webdriver.
 
+## Alternatives
+- https://github.com/slamdata/purescript-lunapark
+
 ## Installation
 
-``` purescript
-bower install purescript-webdriver
-```
+TODO
 
 ## Module documentation
 
