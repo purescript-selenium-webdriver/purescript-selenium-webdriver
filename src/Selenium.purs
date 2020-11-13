@@ -47,6 +47,7 @@ module Selenium
   , getWindowHandle
   , getAllWindowHandles
   , switchTo
+  , switchToActiveElement
   , close
   ) where
 
@@ -459,12 +460,20 @@ fromArray =
 
 foreign import _switchTo
   ∷ WindowHandle → Driver → EffectFnAff Unit
+
+foreign import _switchToActiveElement
+  ∷ Driver → EffectFnAff Unit
+
 foreign import _close
   ∷ Driver → EffectFnAff Unit
 
 switchTo
   ∷ WindowHandle → Driver → Aff Unit
 switchTo handle driver = fromEffectFnAff $ _switchTo handle driver
+
+switchToActiveElement
+  ∷ Driver → Aff Unit
+switchToActiveElement driver = fromEffectFnAff $ _switchToActiveElement driver
 
 close
   ∷ Driver → Aff Unit

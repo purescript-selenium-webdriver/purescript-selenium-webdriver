@@ -25,6 +25,7 @@ main = do
 
   goInput driver el = do
     sendKeysEl "webdriver" el
+    -- TODO: try `byName "btnK" >>=`
     byCss ".ds .lsbb button.lsb" >>=
       findElement driver >>=
       maybe noButton (goButton driver)
